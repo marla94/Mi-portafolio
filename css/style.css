@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.header, footer {
+    background-color: pink;
+    border-radius: 0px 50px 0px 50px;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+#banner {
+    width: 20%;
+    min-width: 100px;
+}
+
+#bug-img {
+    width: 20%;
+    min-width: 100px;
+    float: left;
+    padding-right: 1em;
+}
+
+.rrss-icon {
+    width: 5%;
+    min-width: 30px;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rrss {
+    word-spacing: 1em;
+}
+
+.bounce:hover, .big-img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.navop {
+    font-weight: bold;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.navpag {
+    color: white;
+    background-color: palevioletred;
+    border: solid;
+    border-color: palevioletred;
+    border-radius: 5px;
+    padding: 0.2em;
+    box-shadow: 3px 2px 3px black;
+}
+
+legend {
+    color: palevioletred;
+    float: none;
+    width: auto;
+}
+
+fieldset {
+    border: 2px solid;
+    padding: 0 2% 2% 2%;
+    border-color: pink;
+    border-radius: 0px 50px 0px 50px;
+    margin-bottom: 3%;
+}
+
+.big-img{
+    width: 80%;
+    max-width: 200px;
+    margin: 7%;   
+}
+
+#tproject div, #thobbies div {
+    text-align: center;
+}
